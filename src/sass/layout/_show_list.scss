@@ -1,0 +1,56 @@
+span {
+	&.time {
+		height: 100%;
+		padding: 0 10px;
+		display: table-cell;
+	}
+}
+
+li {
+	margin-bottom: 10px;
+	display: table;
+	text-align: left;
+	color: $grey;
+	position: relative;
+	a {
+		color: $light_blue;
+	}
+}
+
+.dropdown {
+	width: 100%;
+	padding: 5px 0;
+	background-color: $lightest_blue;
+	img {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: auto;
+		margin: 5px 10px 0;
+		cursor: pointer;
+	}
+
+	.time {
+		width: 41px;
+	}
+
+	#dropdown-box {
+		@include transitionPrefix(all 0.5s ease-in-out);
+        padding-right: 10px;
+
+		max-height: 0;
+		overflow: hidden;
+		&.open {
+			max-height: 500px;
+		}
+	}
+}
+.custom-container {
+	&.sub-heading {
+		padding: 0
+	}
+}
+
+.title {
+	color: $light_blue;
+}

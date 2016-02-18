@@ -1,0 +1,139 @@
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0; }
+
+h1 {
+  font-size: 2rem;
+  padding: 0px;
+  color: #09b3f0; }
+
+h2 {
+  color: #09b3f0;
+  padding: 30px 0; }
+
+h3 {
+  color: #fff;
+  background: #072c61;
+  padding: 10px; }
+
+h4 {
+  color: #09b3f0;
+  line-height: 1rem; }
+
+ul {
+  padding: 0; }
+  ul li {
+    list-style-type: none; }
+
+.wrapper {
+  display: block;
+  margin: 0 auto;
+  max-width: 1065px; }
+
+div[class^="custom-col"] {
+  box-sizing: border-box; }
+
+.custom-container {
+  width: 100%;
+  padding: 0px;
+  display: inline-block; }
+
+.custom-col-6 {
+  float: left;
+  width: 50%;
+  padding: 0 25px; }
+
+.custom-col-4 {
+  float: left;
+  width: 33.333333%;
+  padding: 0 25px; }
+
+.custom-col-8 {
+  float: left;
+  width: 66.66%;
+  padding: 0 25px; }
+
+.ads {
+  text-align: center; }
+  .ads img {
+    width: 100%;
+    display: inline-block; }
+    .ads img:first-child {
+      margin-top: 20px; }
+  .ads p {
+    text-align: left;
+    color: #09b3f0; }
+  .ads a {
+    color: #072c61; }
+
+header .on_now .custom-col-8 {
+  background: #072c61; }
+  header .on_now .custom-col-8 p {
+    margin: 0 0 10px;
+    line-height: 1.5rem;
+    color: #fff; }
+
+header .on_now div[class^="custom-col"] {
+  padding-top: 10px; }
+
+header .custom-col-4 {
+  padding: 0; }
+
+.date {
+  font-size: 1rem; }
+
+span.time {
+  height: 100%;
+  padding: 0 10px;
+  display: table-cell; }
+
+li {
+  margin-bottom: 10px;
+  display: table;
+  text-align: left;
+  color: #676e76;
+  position: relative; }
+  li a {
+    color: #09b3f0; }
+
+.dropdown {
+  width: 100%;
+  padding: 5px 0;
+  background-color: #ccf0fc; }
+  .dropdown img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+    margin: 5px 10px 0;
+    cursor: pointer; }
+  .dropdown .time {
+    width: 41px; }
+  .dropdown #dropdown-box {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    padding-right: 10px;
+    max-height: 0;
+    overflow: hidden; }
+    .dropdown #dropdown-box.open {
+      max-height: 500px; }
+
+.custom-container.sub-heading {
+  padding: 0; }
+
+.title {
+  color: #09b3f0; }
+
+@media (max-width: 767px) {
+  .custom-col-4 {
+    width: 100%; }
+  .custom-col-8 {
+    width: 100%; }
+  .ads img {
+    max-width: 300px; }
+  .ads p {
+    margin: 0 auto;
+    display: block;
+    max-width: 300px; } }

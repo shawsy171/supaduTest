@@ -1,0 +1,23 @@
+@media (max-width: 767px) {
+	.custom-col-4 {
+		width: 100%;		
+	}
+	.custom-col-8 {
+		width: 100%;
+	}
+
+	.ads {
+		img {
+			max-width: 300px;
+		}
+		p {
+			margin: 0 auto;
+			display: block;
+			max-width: 300px;
+		}
+	}
+	
+
+
+
+}	
